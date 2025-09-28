@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1080, initial-scale=1" />
+  <title>YSF Attending Template</title>
+  <style>
+    :root {
+      --blue-brand: #1173d4;
+      --blue-light: #1173d4;
+      --orange: #ff7a18;
+      --white: #ffffff;
+    }
+    html, body {
+      margin:0;
+      height:100%;
+      background:#000;
+      font-family: Inter, system-ui, sans-serif;
+    }
+    .stage {
+      width:1080px;
+      height:1080px;
+      margin:20px auto;
+      position:relative;
+      overflow:hidden;
+      border-radius:16px;
+      background:
+        radial-gradient(1200px 800px at 10% 10%, rgba(17,115,212,0.25), transparent 30%),
+        radial-gradient(1200px 800px at 90% 90%, rgb(164, 198, 232), transparent 30%),
+        linear-gradient(160deg, var(--blue-brand), var(--blue-light));
+    }
+    /* vignette */
+    .overlay {
+      position:absolute;
+      inset:0;
+      background: radial-gradient(80% 80% at 50% 30%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.55) 80%);
+      pointer-events:none;
+    }
+    /* profile photo */
+    .profile {
+      position:absolute;
+      top:120px;
+      left:50%;
+      transform:translateX(-50%);
+      width:220px;
+      height:220px;
+      border-radius:50%;
+      border:6px solid var(--white);
+      overflow:hidden;
+      box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    }
+    .profile img {
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
+    /* headline text */
+    .headline {
+      position:absolute;
+      top:450px;
+      left:80px;
+      right:80px;
+      text-align:center;
+    }
+    .headline h1 {
+      font-size:88px;
+      font-weight:900;
+      margin:0;
+      line-height:1.05;
+      text-transform:uppercase;
+      color:transparent;
+      -webkit-text-stroke: 3px var(--white);
+    }
+    .headline h2 {
+      font-size:42px;
+      font-weight:800;
+      margin:20px 0 0;
+      color:var(--white);
+    }
+    .tagline {
+      font-size:24px;
+      margin-top:12px;
+      font-weight:600;
+      color:var(--orange);
+    }
+    /* wave divider */
+    .wave {
+      position:absolute;
+      left:0; right:0; bottom:100px;
+      height:260px;
+    }
+    .wave svg { width:100%; height:100%; display:block; }
+    /* bottom section */
+    .bottom-section {
+      position:absolute;
+      left:0; right:0; bottom:0;
+      height:100px;
+      background:var(--white);
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:flex-end;
+      padding-bottom:20px;
+      gap:12px;
+    }
+    .sponsors {
+      display:flex;
+      gap:40px;
+      align-items:center;
+      margin-bottom:12px;
+    }
+    .sponsors img {
+      height:48px;
+      object-fit:contain;
+    }
+    #coca-cola{
+        height:100px;
+    }
+    .footer {
+      font-size:18px;
+      font-weight:700;
+      color:#111827;
+    }
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <div class="overlay"></div>
+
+    <!-- profile photo -->
+    <div class="profile">
+      <img id="user-photo" src="https://via.placeholder.com/220" alt="User profile">
+    </div>
+
+    <!-- headline -->
+    <div class="headline">
+      <h1>I’m Attending</h1>
+      <h2>AIESEC YSF 2025 • Addis Ababa</h2>
+      <div class="tagline">See you there!</div>
+    </div>
+
+    <!-- wave divider -->
+    <div class="wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" preserveAspectRatio="none">
+        <path
+          d="
+            M0,40
+            C66.66,25 133.33,25 200,40
+            C266.66,55 333.33,55 400,40
+            C466.66,25 533.33,25 600,40
+            C666.66,55 733.33,55 800,40
+            C866.66,25 933.33,25 1000,40
+            C1066.66,55 1133.33,55 1200,40
+            L1200,80
+            L0,80
+            Z
+          "
+          fill="white"
+          stroke="none"
+        />
+      </svg>
+    </div>
+
+    <!-- bottom section -->
+    <div class="bottom-section">
+      <div class="sponsors">
+        <img src="public/coca-cola.png" id="coca-cola" alt="Coca-Cola">
+        <img src="public\ethio-telecom.png" alt="Ethio Telecom">
+        <img src="public/alx.jpg" alt="ALX">
+      </div>
+      <div class="footer">October 15–17 • ysfethiopia.org</div>
+    </div>
+  </div>
+</body>
+</html>
