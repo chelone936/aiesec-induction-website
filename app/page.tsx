@@ -33,91 +33,142 @@ export default function HomePage() {
   const scheduleDays = {
     day1: [
       {
-        time: "09:00 - 10:00",
-        title: "Opening Ceremony & Keynote",
-        description: "Kick off the forum with inspiring words from AIESEC leaders and a keynote on youth empowerment.",
-        location: "Main Hall",
+        time: "08:00–09:00",
+        title: "Registration & Networking Breakfast",
+        description: "Arrive, check in, and enjoy a light breakfast while networking with fellow participants.",
+        location: "",
         isNew: false,
       },
       {
-        time: "10:15 - 11:30",
-        title: "Panel: The Future of Leadership",
-        description: "Industry leaders discuss the evolving landscape of leadership in Ethiopia and beyond.",
-        location: "Main Hall",
-        isNew: true,
-      },
-      {
-        time: "11:45 - 13:00",
-        title: "Workshop: Personal Branding",
-        description: "Interactive session on building your personal brand for career and impact.",
-        location: "Workshop Room 1",
+        time: "09:00–09:20",
+        title: "Opening Remarks (Event Manager + UN Partner Rep)",
+        description: "Welcome address and opening statements from the Event Manager and UN Partner Representative.",
+        location: "",
         isNew: false,
       },
       {
-        time: "14:00 - 15:30",
-        title: "Networking Circles",
-        description: "Meet fellow attendees and speakers in themed networking groups.",
-        location: "Networking Lounge",
+        time: "09:20–10:00",
+        title: "Keynote: Youth & the SDGs (Hilina Berhanu Degefa)",
+        description: "Hilina Berhanu Degefa shares insights on the role of youth in achieving the Sustainable Development Goals.",
+        location: "",
         isNew: false,
       },
+      {
+        time: "10:15–11:30",
+        title: "Panel: Youth Innovation in Africa",
+        description: "Panel discussion featuring young innovators and leaders driving change across Africa.",
+        location: "",
+        isNew: false,
+      },
+      {
+        time: "11:30–12:30",
+        title: "Youth Innovation Pitches (Batch 1)",
+        description: "First batch of youth-led innovation pitches. Teams present their ideas to a panel of judges.",
+        location: "",
+        isNew: false,
+      },
+      {
+        time: "14:00–15:15",
+        title: "Workshops A/B/C (Iceaddis, GreenPath Foods, BeNu Foods)",
+        description: "Parallel workshops led by Iceaddis, GreenPath Foods, and BeNu Foods. Choose your preferred session.",
+        location: "",
+        isNew: false,
+      },
+      {
+        time: "15:30–16:30",
+        title: "Workshops D/E/F (xHub Addis, Armada Agriculture, Ethiopis Tadesse)",
+        description: "Parallel workshops led by xHub Addis, Armada Agriculture, and Ethiopis Tadesse. Choose your preferred session.",
+        location: "",
+        isNew: false,
+      },
+
     ],
     day2: [
       {
-        time: "09:00 - 10:30",
-        title: "Fireside Chat: Entrepreneurship in Africa",
-        description: "Young founders share their journeys and answer your questions.",
-        location: "Main Hall",
+        time: "09:00–09:15",
+        title: "Energizer & Welcome Back",
+        description: "Start the day with an energizing activity and a warm welcome back.",
+        location: "",
         isNew: false,
       },
       {
-        time: "10:45 - 12:00",
-        title: "Workshop: Innovation Sprint",
-        description: "Hands-on group activity to solve real-world challenges.",
-        location: "Workshop Room 2",
-        isNew: true,
-      },
-      {
-        time: "13:00 - 14:00",
-        title: "Lunch & Partner Expo",
-        description: "Enjoy lunch and connect with our partners at their booths.",
-        location: "Expo Area",
+        time: "09:15–10:00",
+        title: "Keynote: Climate Action & Youth (UNECA Speaker)",
+        description: "UNECA Speaker discusses the importance of youth engagement in climate action.",
+        location: "",
         isNew: false,
       },
       {
-        time: "14:15 - 15:30",
-        title: "Panel: Women in Leadership",
-        description: "Trailblazing women share their stories and advice.",
-        location: "Main Hall",
+        time: "10:15–11:15",
+        title: "Youth Innovation Pitches (Batch 2)",
+        description: "Second batch of youth-led innovation pitches. Teams present their ideas to a panel of judges.",
+        location: "",
         isNew: false,
       },
+      {
+        time: "11:15–12:15",
+        title: "Panel: Employability & Future Skills",
+        description: "Panel discussion on employability, future skills, and preparing youth for the evolving job market.",
+        location: "",
+        isNew: false,
+      },
+      {
+        time: "13:30–14:30",
+        title: "Workshops G/H/I (EYEA, Iceaddis, xHub Addis)",
+        description: "Parallel workshops led by EYEA, Iceaddis, and xHub Addis. Choose your preferred session.",
+        location: "",
+        isNew: false,
+      },
+      {
+        time: "14:30–15:30",
+        title: "Youth-Led Dialogue Circles",
+        description: "Small group discussions led by youth participants on key topics and challenges.",
+        location: "",
+        isNew: false,
+      },
+
     ],
     day3: [
       {
-        time: "09:00 - 10:00",
-        title: "Morning Energizer & Recap",
-        description: "Get energized and recap highlights from previous days.",
-        location: "Main Hall",
+        time: "09:15–10:00",
+        title: "Keynote: Youth & Digital Transformation in Africa (Baheru Zeyenu)",
+        description: "Baheru Zeyenu explores how digital transformation is shaping opportunities for African youth.",
+        location: "",
         isNew: false,
       },
       {
-        time: "10:15 - 11:30",
-        title: "Workshop: Social Impact Project Lab",
-        description: "Develop and pitch your own social impact project ideas.",
-        location: "Workshop Room 3",
-        isNew: true,
-      },
-      {
-        time: "11:45 - 13:00",
-        title: "Mentorship Circles",
-        description: "Small group mentoring with industry experts.",
-        location: "Mentorship Lounge",
+        time: "10:15–11:30",
+        title: "Youth Innovation Pitches (Finalists)",
+        description: "Finalist teams present their innovative solutions to a panel of judges.",
+        location: "",
         isNew: false,
       },
       {
-        time: "14:00 - 15:00",
-        title: "Closing Ceremony & Awards",
-        description: "Celebrate achievements and close out the forum.",
-        location: "Main Hall",
+        time: "11:30–12:30",
+        title: "Closing Plenary: Youth Commitments to the SDGs",
+        description: "A plenary session where youth participants share their commitments to advancing the SDGs.",
+        location: "",
+        isNew: false,
+      },
+      {
+        time: "13:30–14:30",
+        title: "Sponsor & Partner Showcases",
+        description: "Sponsors and partners present their initiatives and opportunities for youth.",
+        location: "",
+        isNew: false,
+      },
+      {
+        time: "14:30–15:30",
+        title: "Certificate Distribution & Closing Ceremony",
+        description: "Distribution of certificates and official closing of the forum.",
+        location: "",
+        isNew: false,
+      },
+      {
+        time: "15:30–16:00",
+        title: "Networking & Departure",
+        description: "Final networking opportunity and participant departures.",
+        location: "",
         isNew: false,
       },
     ],
@@ -396,7 +447,7 @@ export default function HomePage() {
               {/* Top Label */}
               <div className="mb-4 sm:mb-6">
                 <span className="text-blue-400 text-xs sm:text-sm font-medium tracking-wider uppercase">
-                  AIESEC YSF 2024, EMPOWERING YOUTH
+                  AIESEC YSF 2025, EMPOWERING YOUTH
                 </span>
               </div>
 
@@ -733,7 +784,7 @@ export default function HomePage() {
                       </defs>
                       <text className="text-xs fill-white font-medium tracking-wider">
                         <textPath href="#circle" startOffset="0%">
-                          AIESEC YSF 2024 • YOUTH LEADERSHIP FORUM • ADDIS ABABA •
+                          AIESEC YSF 2025 • YOUTH LEADERSHIP FORUM • ADDIS ABABA •
                         </textPath>
                       </text>
                     </svg>
@@ -797,65 +848,13 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-            {/* Speaker 1 */}
-            <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
-              <div className="relative mb-6">
-                {/* Speaker Image with SVG Curved Bottom Border */}
-                <div className="relative overflow-hidden rounded-t-2xl">
-                  <img
-                    src="/avatar-1.png"
-                    alt="Sarah Johnson"
-                    className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 320 80"
-                      className="w-full h-6 sm:h-8"
-                      preserveAspectRatio="none"
-                    >
-                      <path
-                        d="M 0 40
-                    q 32 -80 64 0
-                    q 32 80 64 0
-                    q 32 -80 64 0
-                    q 32 80 64 0
-                    q 32 -80 64 0
-                    L 320 40
-                    L 320 80
-                    L 0 80
-                    Z"
-                        fill="#f1f0f0ff"
-                        stroke="none"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                {/* Blue Badge */}
-                <div className="absolute bottom-3 sm:bottom-4 right-3 sm:right-4 w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 rounded-full flex items-center justify-center">
-                  <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-                </div>
-              </div>
-
-              <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">Sarah Johnson</h3>
-                <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">CEO & FOUNDER AT INNOHUB</p>
-                {/* Company Logo */}
-                <div className="flex items-center">
-                  <div className="bg-transparent rounded px-2 sm:px-3 py-1 flex items-center">
-                    <img src="/innohub.png" alt="InnoHub" className="h-8 sm:h-10 w-auto" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Speaker 2 */}
+            {/* Hilina Berhanu Degefa */}
             <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
               <div className="relative mb-6">
                 <div className="relative overflow-hidden rounded-t-2xl">
                   <img
-                    src="/professional-business-woman-executive.jpg"
-                    alt="Michael Chen"
+                    src="https://womendeliver.org/wp-content/uploads/2020/06/Hilina-Berhanu-Degefa-3.jpg"
+                    alt="Hilina Berhanu Degefa"
                     className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
@@ -886,78 +885,22 @@ export default function HomePage() {
                   <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
-
               <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">Michael Chen</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">Hilina Berhanu Degefa</h3>
                 <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
-                  CHIEF INNOVATION OFFICER AT BLUEMOON
+                  Women’s rights activist; Co-founder, Yellow Movement<br />
+                  <span className="font-semibold">Keynote: Youth &amp; the SDGs</span>
                 </p>
-                <div className="flex items-center">
-                  <div className="bg-transparent rounded px-2 sm:px-3 py-1 flex items-center">
-                    <img src="/bluemoon.png" alt="BlueMoon" className="h-6 sm:h-8 w-auto" />
-                  </div>
-                </div>
               </div>
             </div>
 
-            {/* Speaker 3 */}
-            <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
-              <div className="relative mb-6">
-                <div className="relative overflow-hidden rounded-t-2xl">
-                  <img
-                    src="/professional-business-leader-entrepreneur.jpg"
-                    alt="Dr. Amara Okafor"
-                    className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                  <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 320 80"
-                      className="w-full h-6 sm:h-8"
-                      preserveAspectRatio="none"
-                    >
-                      <path
-                        d="M 0 40
-                    q 32 -80 64 0
-                    q 32 80 64 0
-                    q 32 -80 64 0
-                    q 32 80 64 0
-                    q 32 -80 64 0
-                    L 320 40
-                    L 320 80
-                    L 0 80
-                    Z"
-                        fill="#f1f0f0ff"
-                        stroke="none"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div className="absolute bottom-3 sm:bottom-4 right-3 sm:right-4 w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 rounded-full flex items-center justify-center">
-                  <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-                </div>
-              </div>
-
-              <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">Dr. Amara Okafor</h3>
-                <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
-                  DIRECTOR OF SUSTAINABLE DEVELOPMENT AT DANGOTE
-                </p>
-                <div className="flex items-center">
-                  <div className="bg-transparent px-2 sm:px-3 py-1 flex items-center">
-                    <img src="/dangote.png" alt="Dangote" className="h-6 sm:h-8 w-auto" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Speaker 4 */}
+            {/* Baheru Zeyenu */}
             <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
               <div className="relative mb-6">
                 <div className="relative overflow-hidden rounded-t-2xl">
                   <img
                     src="/professional-business-executive-leader.jpg"
-                    alt="James Rodriguez"
+                    alt="Baheru Zeyenu"
                     className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
@@ -988,27 +931,22 @@ export default function HomePage() {
                   <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
-
               <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">James Rodriguez</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">Baheru Zeyenu</h3>
                 <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
-                  VP OF DIGITAL TRANSFORMATION AT HIBRET BANK
+                  CEO, AFRICOM Technologies<br />
+                  <span className="font-semibold">Keynote: Youth &amp; Digital Transformation in Africa</span>
                 </p>
-                <div className="flex items-center">
-                  <div className="bg-transparent rounded px-2 sm:px-3 py-1 flex items-center">
-                    <img src="/hibretbank.png" alt="Hibret Bank" className="h-6 sm:h-8 w-auto" />
-                  </div>
-                </div>
               </div>
             </div>
-            {/* Speaker 1 */}
+
+            {/* Dr. Fatima Denton */}
             <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
               <div className="relative mb-6">
-                {/* Speaker Image with SVG Curved Bottom Border */}
                 <div className="relative overflow-hidden rounded-t-2xl">
                   <img
-                    src="/avatar-1.png"
-                    alt="Sarah Johnson"
+                    src="https://www.sg.uu.nl/sites/default/files/styles/crm/public/speaker/fatima_denton.jpg?h=87293216&itok=jxI9uEDP"
+                    alt="Dr. Fatima Denton"
                     className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
@@ -1035,31 +973,118 @@ export default function HomePage() {
                     </svg>
                   </div>
                 </div>
-                {/* Blue Badge */}
                 <div className="absolute bottom-3 sm:bottom-4 right-3 sm:right-4 w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 rounded-full flex items-center justify-center">
                   <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
-
               <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">Sarah Johnson</h3>
-                <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">CEO & FOUNDER AT INNOHUB</p>
-                {/* Company Logo */}
-                <div className="flex items-center">
-                  <div className="bg-transparent rounded px-2 sm:px-3 py-1 flex items-center">
-                    <img src="/innohub.png" alt="InnoHub" className="h-8 sm:h-10 w-auto" />
-                  </div>
-                </div>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">Dr. Fatima Denton</h3>
+                <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
+                  Director, UNU-INRA; former Head of Climate Change Division, UNECA<br />
+                  <span className="font-semibold">UNECA Guest Speaker – Keynote: Climate Action &amp; Youth</span>
+                </p>
               </div>
             </div>
 
-            {/* Speaker 2 */}
+            {/* Felipe Paullier */}
+            <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
+              <div className="relative mb-6">
+                <div className="relative overflow-hidden rounded-t-2xl">
+                  <img
+                    src="https://www.un.org/youthaffairs/sites/default/files/styles/image_cropped_sm/public/2025-02/ASG%20Youth%20Affairs_Portrait.jpg?h=72d4d3e7&itok=aqgw6ASH"
+                    alt="Felipe Paullier"
+                    className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 80"
+                      className="w-full h-6 sm:h-8"
+                      preserveAspectRatio="none"
+                    >
+                      <path
+                        d="M 0 40
+                    q 32 -80 64 0
+                    q 32 80 64 0
+                    q 32 -80 64 0
+                    q 32 80 64 0
+                    q 32 -80 64 0
+                    L 320 40
+                    L 320 80
+                    L 0 80
+                    Z"
+                        fill="#f1f0f0ff"
+                        stroke="none"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div className="absolute bottom-3 sm:bottom-4 right-3 sm:right-4 w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                  <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                </div>
+              </div>
+              <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">Felipe Paullier</h3>
+                <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
+                  Assistant Secretary-General for Youth Affairs, United Nations<br />
+                  <span className="font-semibold">UN Partner Representative – Opening &amp; Closing Remarks</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Ethiopis Tadesse */}
+            <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
+              <div className="relative mb-6">
+                <div className="relative overflow-hidden rounded-t-2xl">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGLvCNdoXxycmAsinM-bGv0F-PQa-5G-qYJw&s"
+                    alt="Ethiopis Tadesse"
+                    className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                  <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 320 80"
+                      className="w-full h-6 sm:h-8"
+                      preserveAspectRatio="none"
+                    >
+                      <path
+                        d="M 0 40
+                    q 32 -80 64 0
+                    q 32 80 64 0
+                    q 32 -80 64 0
+                    q 32 80 64 0
+                    q 32 -80 64 0
+                    L 320 40
+                    L 320 80
+                    L 0 80
+                    Z"
+                        fill="#f1f0f0ff"
+                        stroke="none"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div className="absolute bottom-3 sm:bottom-4 right-3 sm:right-4 w-10 h-10 sm:w-12 sm:h-12 bg-blue-600 rounded-full flex items-center justify-center">
+                  <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                </div>
+              </div>
+              <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">Ethiopis Tadesse</h3>
+                <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
+                  Media &amp; storytelling expert; Founder, Ethiopis Media Group<br />
+                  <span className="font-semibold">Workshop Facilitator – Media &amp; Storytelling</span>
+                </p>
+              </div>
+            </div>
+
+            {/* Samiya Abdulkadir */}
             <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
               <div className="relative mb-6">
                 <div className="relative overflow-hidden rounded-t-2xl">
                   <img
                     src="/professional-business-woman-executive.jpg"
-                    alt="Michael Chen"
+                    alt="Samiya Abdulkadir"
                     className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
@@ -1090,27 +1115,22 @@ export default function HomePage() {
                   <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
-
               <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">Michael Chen</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">Samiya Abdulkadir</h3>
                 <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
-                  CHIEF INNOVATION OFFICER AT BLUEMOON
+                  Executive Director, Ethiopian Youth Entrepreneurs Association (EYEA)<br />
+                  <span className="font-semibold">Panelist &amp; Workshop Facilitator – Youth Innovation / Entrepreneurship</span>
                 </p>
-                <div className="flex items-center">
-                  <div className="bg-transparent rounded px-2 sm:px-3 py-1 flex items-center">
-                    <img src="/bluemoon.png" alt="BlueMoon" className="h-6 sm:h-8 w-auto" />
-                  </div>
-                </div>
               </div>
             </div>
 
-            {/* Speaker 3 */}
+            {/* Bruktawit Tigabu */}
             <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
               <div className="relative mb-6">
                 <div className="relative overflow-hidden rounded-t-2xl">
                   <img
-                    src="/professional-business-leader-entrepreneur.jpg"
-                    alt="Dr. Amara Okafor"
+                    src="https://media.bahaiteachings.org/2021/02/bruktawit-tigabu.jpg"
+                    alt="Bruktawit Tigabu"
                     className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
@@ -1141,27 +1161,22 @@ export default function HomePage() {
                   <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
-
               <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">Dr. Amara Okafor</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">Bruktawit Tigabu</h3>
                 <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
-                  DIRECTOR OF SUSTAINABLE DEVELOPMENT AT DANGOTE
+                  Founder, Whiz Kids Workshop<br />
+                  <span className="font-semibold">Panelist – Youth Innovation in Africa</span>
                 </p>
-                <div className="flex items-center">
-                  <div className="bg-transparent px-2 sm:px-3 py-1 flex items-center">
-                    <img src="/dangote.png" alt="Dangote" className="h-6 sm:h-8 w-auto" />
-                  </div>
-                </div>
               </div>
             </div>
 
-            {/* Speaker 4 */}
+            {/* Yonatan Aklilu */}
             <div className="group cursor-pointer bg-[#f1f0f0ff] rounded-2xl transition-colors duration-300">
               <div className="relative mb-6">
                 <div className="relative overflow-hidden rounded-t-2xl">
                   <img
-                    src="/professional-business-executive-leader.jpg"
-                    alt="James Rodriguez"
+                    src="/avatar-1.png"
+                    alt="Yonatan Aklilu"
                     className="w-full h-64 sm:h-80 object-cover transition-transform duration-300 group-hover:scale-105"
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-6 sm:h-8">
@@ -1192,17 +1207,12 @@ export default function HomePage() {
                   <UserCheck className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                 </div>
               </div>
-
               <div className="bg-[#f1f0f0ff] text-[#414040ff] p-4 sm:p-6 rounded-b-2xl">
-                <h3 className="text-xl sm:text-2xl font-bold mb-2">James Rodriguez</h3>
+                <h3 className="text-xl sm:text-2xl font-bold mb-2">Yonatan Aklilu</h3>
                 <p className="text-gray-600 text-xs sm:text-sm mb-3 leading-relaxed">
-                  VP OF DIGITAL TRANSFORMATION AT HIBRET BANK
+                  Youth empowerment advocate; Founder, Kana TV’s Youth Leadership Program<br />
+                  <span className="font-semibold">Panelist – Youth Innovation in Africa</span>
                 </p>
-                <div className="flex items-center">
-                  <div className="bg-transparent rounded px-2 sm:px-3 py-1 flex items-center">
-                    <img src="/hibretbank.png" alt="Hibret Bank" className="h-6 sm:h-8 w-auto" />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -1329,23 +1339,7 @@ export default function HomePage() {
                 {/* Description */}
                 <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">{item.description}</p>
 
-                {/* Location */}
-                <div className="flex items-center space-x-2 sm:space-x-3">
-                  <svg
-                    className="w-4 h-4 sm:w-5 sm:h-5 text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17.657 16.657L13.414 12.414a4 4 0 10-5.657 5.657l4.243 4.243a8 8 0 1011.314-11.314l-4.243 4.243z"
-                    />
-                  </svg>
-                  <span className="text-gray-300 text-sm sm:text-base">{item.location}</span>
-                </div>
+
               </div>
             ))}
           </div>
